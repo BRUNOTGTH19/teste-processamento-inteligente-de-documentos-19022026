@@ -44,8 +44,72 @@ Atividade: Analise a fatura e redija um documento respondendo os pontos abaixo. 
  - Considerando que a instalação da "fatura_cemig.pdf" participa do Sistema de Compensação de Energia Elétrica, identifique e explique qual informação na seção "Informações Gerais" da fatura é considerada a mais importante.
  - Identifique o consumo da instalação referente ao mês de julho de 2023.
 
-# Resposta para o Teste 2
-Escreva aqui suas respostas para o teste 2.
+1. Diferenças entre a fatura fatura_cemig.pdf e uma fatura convencional de energia elétrica (fatura_cemig_convencional.pdf)
+
+A fatura fatura_cemig.pdf refere-se a uma unidade consumidora participante do Sistema de Compensação de Energia Elétrica (SCEE), enquanto a fatura fatura_cemig_convencional.pdf corresponde a uma unidade consumidora convencional, sem geração própria de energia.
+
+As principais diferenças observadas são:
+
+A fatura com compensação apresenta lançamentos de energia injetada na rede, como Energia compensada GD II e Energia compensada adicional, inexistentes na fatura convencional;
+
+Existe a indicação explícita de saldo de energia de geração (kWh) na fatura com compensação, o que não ocorre na fatura convencional;
+
+O valor total a pagar na fatura com compensação é significativamente menor, pois parte do consumo é abatida por créditos de energia gerada;
+
+A fatura convencional apresenta apenas a cobrança integral da energia consumida, sem créditos ou saldo acumulado;
+
+A fatura com compensação possui maior complexidade no detalhamento dos valores faturados, refletindo a separação entre consumo, injeção de energia e compensações.
+
+Essas diferenças evidenciam o impacto direto da geração distribuída no faturamento da energia elétrica.
+
+2. Descrição e explicação da seção “Valores Faturados” da fatura fatura_cemig.pdf
+
+A seção “Valores Faturados” da fatura fatura_cemig.pdf apresenta o detalhamento financeiro da energia consumida, compensada e dos encargos aplicáveis. Os principais itens são:
+
+Energia Elétrica: refere-se à energia efetivamente consumida da rede da distribuidora.
+
+Energia SCEE s/ ICMS: energia consumida no âmbito do Sistema de Compensação de Energia Elétrica, com tratamento tributário diferenciado.
+
+Energia compensada GD II: energia injetada na rede pela unidade consumidora e utilizada para compensar o consumo faturado, apresentada com valor negativo.
+
+Energia compensada adicional: complemento da compensação de energia, também abatendo o valor da fatura.
+
+Bônus Itaipu (art. 21 da Lei 10.438): benefício concedido aos consumidores, reduzindo o valor total da fatura.
+
+Contribuição de Iluminação Pública (CIP): taxa municipal destinada ao custeio da iluminação pública.
+
+TOTAL: valor final da fatura após a aplicação de todas as compensações, bônus e encargos.
+
+Essa seção demonstra claramente como a energia gerada e injetada na rede reduz o valor final a ser pago pelo consumidor.
+
+3. Informação mais importante na seção “Informações Gerais” considerando o Sistema de Compensação de Energia Elétrica
+
+Na fatura fatura_cemig.pdf, a informação mais relevante na seção “Informações Gerais” é o Saldo Atual de Geração, expresso em kWh.
+
+Esse saldo indica a quantidade de energia excedente gerada pela unidade consumidora que permanece disponível para compensar consumos futuros. Ele é considerado o dado mais importante porque:
+
+Determina o potencial de abatimento nas próximas faturas;
+
+Representa o benefício econômico direto da geração distribuída;
+
+Está sujeito a regras de validade e expiração;
+
+Influencia diretamente o planejamento de consumo do consumidor.
+
+Sem esse saldo, não seria possível avaliar a eficiência do sistema de compensação nem prever o impacto financeiro futuro.
+
+4. Consumo da instalação no mês de julho de 2023
+
+Com base no Histórico de Consumo apresentado na fatura fatura_cemig.pdf, o consumo da instalação referente ao mês de julho de 2023 foi de:
+
+199 kWh
+
+Esse valor corresponde à energia consumida no período, antes da aplicação das compensações provenientes da energia gerada e injetada na rede .
+
+Considerações Finais
+
+A análise das faturas evidencia as diferenças estruturais e financeiras entre uma unidade consumidora convencional e uma unidade participante do Sistema de Compensação de Energia Elétrica, destacando os benefícios econômicos da geração distribuída e a importância do controle do saldo de energia acumulado.
+
 
 # Requisitos dos Desafios:
 
