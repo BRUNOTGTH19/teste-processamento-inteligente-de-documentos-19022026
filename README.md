@@ -88,6 +88,29 @@ O script extrai as seguintes informações da fatura:
 No terminal, execute:
 
 ```bash
+{
+    "Titular da Fatura": {
+        "Nome": "JOAO NEVES",
+        "Documento": "715.665.976-13"
+    },
+    "Endereço Completo": "PCA DOUTOR GONCALVES 379 CS 802 JUL/2023 06/08/2023 76,66 CENTRO 35570-000 VIÇOSA, MG",
+    "Classificação da Instalação": "Residencial Residencial Convencional B1",
+    "Número da Instalação": "12345678911",
+    "Valor a Pagar para a Distribuidora (R$)": 76.66,
+    "Data de Vencimento": null,
+    "Mês de Referência": "JUL/2023",
+    "Consumo da Fatura (kWh)": 199,
+    "Saldo em kWh Acumulado na Instalação": 234.63,
+    "Somatório Energias Compensadas (kWh)": 149,
+    "Somatório Valores Totais das Operações (R$)": 623.85,
+    "Contribuição de Iluminação Pública (R$)": 24.71,
+    "Alíquotas (%)": {
+        "ICMS": 0.0,
+        "PIS": null,
+        "COFINS": null
+    },
+    "Linha Digitável para Pagamento": "API22211117648"
+}
 pip install pdfplumber
 
 
