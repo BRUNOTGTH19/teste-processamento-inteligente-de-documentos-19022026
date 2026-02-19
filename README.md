@@ -31,7 +31,65 @@ Organize a saída e visualização das informações extraídas.
 
 # Documentação do Teste 1
 
-Escreva aqui a documentação do desenvolvimento do teste 1.
+# Teste — Extração de Dados de Fatura CEMIG
+
+## Descrição do Projeto
+
+Este projeto tem como objetivo desenvolver uma rotina em Python capaz de realizar a leitura da fatura `fatura_cemig.pdf` em formato PDF e extrair informações estruturadas relevantes.
+
+O script utiliza a biblioteca `pdfplumber` para extração de texto e expressões regulares (`re`) para identificação e captura dos dados solicitados.
+
+As informações extraídas são organizadas em um dicionário estruturado, exibidas no terminal e exportadas automaticamente para um arquivo `fatura_cemig.json`.
+
+---
+
+## Tecnologias Utilizadas
+
+- Python 3
+- pdfplumber
+- re (expressões regulares)
+- json
+- decimal
+
+---
+
+## Informações Extraídas
+
+O script extrai as seguintes informações da fatura:
+
+1. Titular da fatura (Nome e Documento)
+2. Endereço completo do titular
+3. Classificação da Instalação
+4. Número da instalação
+5. Valor a pagar para a distribuidora
+6. Data de vencimento
+7. Mês ao qual a fatura é referente
+8. Tarifa total com tributos
+9. Tarifa total ANEEL
+10. Quantidade em kWh do consumo da fatura
+11. Saldo em kWh acumulado na instalação
+12. Somatório das quantidades das energias compensadas (injetadas)
+13. Somatório dos valores totais das operações (R$)
+14. Contribuição de iluminação pública (CIP)
+15. Alíquotas de ICMS, PIS e COFINS (%)
+16. Linha digitável para pagamento
+
+---
+
+## Como Executar o Projeto
+
+### 1️⃣ Pré-requisitos
+
+- Python 3.10 ou superior instalado
+- pip configurado no sistema
+
+### 2️⃣ Instalação das Dependências
+
+No terminal, execute:
+
+```bash
+pip install pdfplumber
+
 
 # Teste 2
 
